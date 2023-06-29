@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+        
+     <style>
+       * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+     
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: 20px 20px;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 95vw;
+            height: 2px;
+            margin: 15px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 70px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 70px;
+            width: 100px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 74px;
+            color: gray;
+            width: 175px;
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 900px) {
+            body {
+                /* background-color: red; */
+            }
+
+            nav{
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .right{
+                padding-top: 10px;
+            }
+
+            nav ul li {
+                list-style: none;
+                margin: 0 7px;
+        
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            .box {
+                flex-direction: column;
+                
+            }
+
+            .secondsection {
+            max-width: 80vw;
+            margin: 20px 20px;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 95vw;
+            height: 2px;
+            margin: 15px 5px;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+                height: unset;
+                margin: 0 10vw;
+                
+            }
+
+            .vertical-title{
+                left: 45px;
+                width: 250px;
+                margin-bottom: 1px;
+            }
+
+            .vertical-desc {
+                left: 45px;
+                width: 250px;
+                margin-bottom: 28px;
+                
+            }
+
+            .secondsection.box {
+                width: 50vw;
+            }
+
+            .secondsection{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            body{
+                min-width:fit-content;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Darshan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/index.html">Home </a></li>
+                    <li> <a href="/About.html">About </a></li>
+                    <li> <a href="/projects.html">Projects </a></li>
+                    <li> <a href="/contactMe.html">Contact Me </a></li>
+                </ul>    
+            </div>
+        </nav>
+    </header>
+
+    <section class="secondsection">
+        <span class="text-gray"> What i have done so far</span>
+        <h1>Projects</h1>
+
+        <div class="box">
+            <div class="vertical">
+                
+                <div class="vertical-title">
+                    ARMY DATABASE MANAGEMENT SYSTEM
+                </div>
+                <div class="vertical-desc">
+                    Army database management system is a database application which helps soldiers and management of the army to get
+                    the details of soldiers and related data.I implemented this mini project using HTML, PHP and MYSQL.I have configured
+                    input screens as part of the user interface to retrieve, update and store the data into the Database. Solved and fixed the
+                    issues encountered in connection between the front end and the database.
+                </div>
+            </div>
+            <div class="vertical">
+                
+                <div class="vertical-title">
+                    MUSIC PLAYER APPLICATION
+                </div>
+                <div class="vertical-desc">
+                    Music player is an android application to play music. This project is implemented by JAVA language. As a team member I
+                    was involved in the development of fetching the song from the internal storage and then playing in the application. I
+                    configured the buttons like play, pause and resume to cater this functionality.
+                </div>
+            </div>
+            <div class="vertical">
+                
+                <div class="vertical-title">
+                    WEB DEVELOPMENT PROJECTS
+                </div>
+                <div class="vertical-desc">
+                    <b>PERSONAL PORTFOLIO WEBSITE </b> <br>
+                       A personal portfolio website provides information of the respective person on the academic details, projects etc. This
+                       is developed using HTML and CSS. <br> <br>
+                     <b> FLIPKART WEBSITE </b> <br>
+                        This is an e commerce website which provides cost and details of various items. This is developed using HTML and CSS
+                </div>
+            </div>
+            <div class="vertical">
+            
+                <div class="vertical-title">
+                    KYASANURU FOREST DISEASE DETECTION
+                </div>
+                <div class="vertical-desc">
+                    It is a disease which is specifically identified in malnad region. Here i have applied algorithm in such a way that the system detect the disease based on symptoms given by user.
+                </div>
+            </div>
+
+            <div class="vertical">
+                
+                <div class="vertical-title">
+                    SMART INTRUDER DETECTION SYSTEM USING OPENCV
+                </div>
+                <div class="vertical-desc">
+                   A Smart Human Intrusion Detection System is an advanced security system that uses openCV to detect and identify potential intruders in real-time, even in low light conditions.
+                </div>
+            </div>
+    </section>
+</body>
+</html>
